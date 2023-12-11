@@ -8,7 +8,7 @@ import pyarmor.pytransform as pytransform
 if sys.version_info[0] < 3:
     raise SystemExit("Use Python 3 (or higher) only")
 
-Fore.RED, Style.RESET_ALL  # Initialize colorama
+Fore.RED, Style.RESET_ALL 
 
 def generate_payload():
     return 'alert(1)'
